@@ -14,7 +14,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cp -r project1 /home/vscode/; cp -r project2 /home/vscode/",
+	"postCreateCommand": "cp -r blue-folder /home/vscode/; cp -r pink-folder /home/vscode/ ; cp -r red-folder /home/vscode/",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
