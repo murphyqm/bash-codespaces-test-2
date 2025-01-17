@@ -14,7 +14,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cp -r blue-folder /home/vscode/; cp -r pink-folder /home/vscode/ ; cp -r red-folder /home/vscode/",
+	"postCreateCommand": "cp -r blue-folder /home/vscode/; cp -r pink-folder /home/vscode/; cp -r red-folder /home/vscode/; sudo apt -yq update && sudo apt -yq install pipx; sudo apt -yq install r-base; cp -f .devcontainer/devcontainer.bashrc ~/.bashrc; source ~/.bashrc"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
