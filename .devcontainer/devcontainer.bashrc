@@ -159,4 +159,9 @@ if [[ "$TERM" == "xterm" ]]; then
     # Append to PROMPT_COMMAND to call precmd before displaying the prompt
     PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND; }precmd"
 fi
-alias python="pipx run"
+
+python()
+{
+    pipx run $1
+}
+export -f python

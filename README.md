@@ -24,3 +24,6 @@ cp -r source_folder /path/to/destination_folder/
 ```bash
 cp -r project1 /home/vscode/
 ```
+
+
+
